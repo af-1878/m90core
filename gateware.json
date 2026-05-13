@@ -1,0 +1,17 @@
+{
+    "name": "irem_m90",
+    "version": "1.0.0",
+    "description": "Irem M90 Arcade Hardware for Analogue Pocket",
+    "repository": "https://github.com/flynny/irem_m90-pocket",
+    "scripts": {
+        "build:pocket": "quartus_sh --flow compile projects/irem_m92_pocket.qpf",
+        "program:pocket": "quartus_pgm -m jtag -c 1 -o \"p;projects/output_files/irem_m92_pocket.sof@1\""
+    },
+    "targets": [
+        {
+            "id": "irem_m90",
+            "platform": "pocket",
+            "name": "Irem M90"
+        }
+    ]
+}

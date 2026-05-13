@@ -1,0 +1,16 @@
+{
+    "input": {
+        "magic": "APF_VER_1",
+        "controllers": [
+            {
+                "type": "default",
+                "mappings": [
+                    { "id": 0,  "name": "Drop Bomb", "key": "pad_btn_a"      },
+                    { "id": 1,  "name": "Detonate",  "key": "pad_btn_b"      },
+                    { "id": 20, "name": "Start",     "key": "pad_btn_start"  },
+                    { "id": 21, "name": "Coin",      "key": "pad_btn_select" }
+                ]
+            }
+        ]
+    }
+}
